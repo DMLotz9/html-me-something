@@ -1,9 +1,33 @@
 #main_title{
     font-size: 36px;
-    color: maroon;
     text-align: center;
-    background-color: bisque;
+    background-color: #F1F1F1;
     padding: 20px;
-    
+}
 
+p{
+width: 300px;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.row{
+    background-color: #F1F1F1;
+}
+
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+footer{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding:20px;
+    margin-top: 50px;
 }
